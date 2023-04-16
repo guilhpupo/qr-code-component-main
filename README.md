@@ -1,53 +1,36 @@
-# Welcome to Remix!
+# Frontend Mentor - QR code component solution
 
-- [Remix Docs](https://remix.run/docs)
+This is a solution to the [QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
-## Development
+## Table of contents
 
-From your terminal:
+- [Overview](#overview)
+  - [Screenshot](#screenshot)
+- [My process](#my-process)
+  - [Built with](#built-with)
+- [Author](#author)
 
-```sh
-npm run dev
-```
 
-This starts your app in development mode, rebuilding assets on file changes.
+**Note: Delete this note and update the table of contents based on what sections you keep.**
 
-## Deployment
+## Overview
 
-First, build your app for production:
+### Screenshot
 
-```sh
-npm run build
-```
+![](./screenshot.jpg)
 
-Then run the app in production mode:
+## My process
 
-```sh
-npm start
-```
+### Built with
 
-Now you'll need to pick a host to deploy it to.
+- Semantic HTML5 markup
+- TailwindCSS
+- [React](https://reactjs.org/) - JS library
+- [Remix](https://remix.run/) - React framework
+- [Tailwind CSS](https://tailwindcss.com/) - For styles
 
-### DIY
+## Author
 
-If you're familiar with deploying node applications, the built-in Remix app server is production-ready.
+- Frontend Mentor - [@guilhpupo](https://www.frontendmentor.io/profile/guilhpupo)
+- Twitter - [@guilhpupo](https://www.twitter.com/guilhpupo)
 
-Make sure to deploy the output of `remix build`
-
-- `build/`
-- `public/build/`
-
-### Using a Template
-
-When you ran `npx create-remix@latest` there were a few choices for hosting. You can run that again to create a new project, then copy over your `app/` folder to the new project that's pre-configured for your target server.
-
-```sh
-cd ..
-# create a new project, and pick a pre-configured host
-npx create-remix@latest
-cd my-new-remix-app
-# remove the new project's app (not the old one!)
-rm -rf app
-# copy your app over
-cp -R ../my-old-remix-app/app app
-```
